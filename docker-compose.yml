@@ -1,0 +1,6 @@
+services:
+  fridge-tracker-frontend:
+    build: .
+    container_name: fridge-tracker-fe
+    ports:
+      - "3000:3000"

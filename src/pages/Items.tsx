@@ -126,7 +126,7 @@ export const Items = () => {
             required
             minLength={2}
             maxLength={100}
-            placeholder="Enter item name (2-100 characters)"
+            placeholder="Enter item name"
             className="flex-grow-1 shadow-sm"
             style={{ 
               height: '45px',
