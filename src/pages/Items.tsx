@@ -237,9 +237,9 @@ export const Items = () => {
                 value={editItemName}
                 onChange={(e: React.ChangeEvent<HTMLInputElement>) => setEditItemName(e.target.value)}
                 required
-                minLength={2}
+                minLength={1}
                 maxLength={100}
-                placeholder="Enter item name (2-100 characters)"
+                placeholder="Enter item name"
                 style={{ 
                   height: '45px',
                   borderRadius: '12px',
